@@ -23,15 +23,21 @@
 brew uninstall 包名
 ```
  
-#### 2.5. 自身更新
+#### 2.5. Homebrew自身更新以及更新Homebrew 安装的所有软件包，并将它们升级到最新版本
 ```shell
 brew update && brew upgrade
 ```
 
+### 查看哪些包已经过时
+
+```shell
+brew outdated
+```    
+
 #### 更新指定包
 
 ```shell
- brew upgrade 包名
+ brew upgrade node
 ```
 
 ####  查看哪些包可清理
@@ -40,7 +46,9 @@ brew update && brew upgrade
  ```
 
 #### 清理所有
- brew cleanup
+```shell
+brew cleanup
+```
 
 
 
@@ -68,7 +76,7 @@ sudo shutdown -r 2309032315
 
 #### 设定2023年9月3日23:15分睡眠：
 ```shell
-sudo shutdown -s 2309032315
+sudo shutdown -s 2309¬032315
 ```
 
 
