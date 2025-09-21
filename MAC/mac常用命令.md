@@ -1,4 +1,5 @@
-<!-- Homebrew常用命令 -->
+
+## Homebrew常用命令
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -40,6 +41,12 @@ brew outdated
  brew upgrade node
 ```
 
+#### 锁定或取消锁定
+```shell
+brew pin $FORMULA      # 锁定某个包
+brew unpin $FORMULA    # 取消锁定
+```
+
 ####  查看哪些包可清理
 ```shell
  brew cleanup -n
@@ -49,8 +56,6 @@ brew outdated
 ```shell
 brew cleanup
 ```
-
-
 
 #### 查看端口是否通
 ```shell
@@ -95,7 +100,6 @@ unzip 1.zip
 ```
 
 
-
 #### 1.查看端口被哪个程序占用
 ```
 lsof -i tcp:3306
@@ -107,7 +111,6 @@ lsof -i tcp:3306
 sudo kill -9 PID
 ```
 
-
 #### 查询
 
 ```shell
@@ -117,7 +120,6 @@ find ~ -iname  "adb*"
 ```shell
 find / -name "powerlevel10k " 2>/dev/null
 ```
-
 
 ## Redis
 
