@@ -13,7 +13,14 @@
 #### 列出已安装的软件
 ```shell
  brew list
- ```
+```
+
+#### 查询是否安装了iterm2
+```shell
+brew list --cask | grep iterm2
+```
+
+ 
 #### 2.3. 安装软件包
 ```shell
  brew install 包名
@@ -29,16 +36,23 @@ brew uninstall 包名
 brew update && brew upgrade
 ```
 
-### 查看哪些包已经过时
+#### 查看哪些包已经过时
 
 ```shell
 brew outdated
 ```    
 
+#### 查看iterm2是否过时
+```shell
+brew outdated --cask iterm2
+``` 
+
+
 #### 更新指定包
 
 ```shell
  brew upgrade node
+ brew upgrade --cask iterm2
 ```
 
 #### 锁定或取消锁定
