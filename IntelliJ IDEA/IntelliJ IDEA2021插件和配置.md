@@ -1,34 +1,22 @@
 ## 常用插件
 
-```text
-1、 .ignore
-2、 Alibaba Java Coding Guidelines
-3、 Atom Material Icons
-4、 codota
-5、 GrepConsole
-6、 HighlightBracketPair
-7、 IDE Eval Reset
-8、 Atom Material Icons
-9、 javadocs
-10、 rainbow-brackets
-11、 jrebel
-12、 jrebel-mybatisplus-extension
-13、 Key-Promoter-X
-14、 Maven Helper
-15、 MyBatisCodeHelperPro ​(Marketplace Edition)​
-16、 Presentation Assistant
-17、 RestfulToolkit-fix
-18、 SequenceDiagram
-19、 string-manipulation
-20、 Translation
-21、 save action
-22、 mybatis-log-plugin
-23、 Statistic
-24、 StopCoding
-25、 jprofiler
+1. Alibaba Java Coding Guidelines
+2.  .ignore
+3.  Maven Helper
+4.  MyBatisCodeHelperPro (Marketplace Edition)
+5.  RestfulToolkit-fix
+6.  mybatis-log-plugin
+7.  GrepConsole
+8.  Save Actions
+9.  JRebel
+10. JRebel-MyBatisPlus-Extension
+11. JProfiler
+12. Key Promoter X
+13. Presentation Assistant
+14. Rainbow Brackets
+15. HighlightBracketPair
+16. Atom Material Icons
 
-
-```
 
 ### javadoc 设置
 

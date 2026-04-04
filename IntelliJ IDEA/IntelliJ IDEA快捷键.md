@@ -1,19 +1,21 @@
 ```text
-Ø　F5复制文件
-Ø　Ctrl+J自动代码
-ØTop#10切来切去：Ctrl+Tab
-ØTop#9选你所想：Ctrl+W
-ØTop#8代码生成：Template/Postfix+Tab
-ØTop#7发号施令：Ctrl+Shift+A
-ØTop#6无处藏身：Shift+Shift
-ØTop#5自动完成：Ctrl+Shift+Enter
-ØTop#4创造万物：Alt+Insert
+F5复制文件
+
+Ctrl+J自动代码
+Top#10切来切去：Ctrl+Tab
+Top#9选你所想：Ctrl+W
+Top#8代码生成：Template/Postfix+Tab
+Top#7发号施令：Ctrl+Shift+A
+Top#6无处藏身：Shift+Shift
+Top#5自动完成：Ctrl+Shift+Enter
+Top#4创造万物：Alt+Insert
 
 太难割舍，前三名并列吧！
-ØTop#1智能补全：Ctrl+Shift+Space
-ØTop#1自我修复：Alt+Enter
-ØTop#1重构一切：Ctrl+Shift+Alt+T
-ØTop#1删除无用的导包：Ctrl+Alt+O
+
+Top#1智能补全：Ctrl+Shift+Space
+Top#1自我修复：Alt+Enter
+Top#1重构一切：Ctrl+Shift+Alt+T
+Top#1删除无用的导包：Ctrl+Alt+O
 Ctrl+P 方法参数提示显示（必备）
 Ctrl+Shift+← 在代码文件上，光标跳转到当前单词 / 中文句的左侧开头位置，同时选中该单词 / 中文句（必备）
 Ctrl+Shift+→ 在代码文件上，光标跳转到当前单词 / 中文句的右侧开头位置，同时选中该单词 / 中文句（必备）
@@ -178,9 +180,4 @@ Alt+M 快捷键
 ```text
 实体类生成建表语句
 在Pojo中，点击鼠标右键，选择Generate，再点击Generatemybatisfiles
-```
-
-## JavaDoc
-```text
-Ctrl+Shift+Alt+G 生成注解
 ```
