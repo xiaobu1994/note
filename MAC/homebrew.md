@@ -42,6 +42,7 @@ brew update && brew upgrade
 
 ```shell
 brew outdated
+brew outdated --cask
 ```    
 
 #### 查看iterm2是否过时
