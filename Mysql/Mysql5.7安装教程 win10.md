@@ -1,11 +1,12 @@
+# 安装
 
-
-## 安装
 1，下载安装包
 [mysql点击下载](https://dev.mysql.com/downloads/mysql/)
 
-2. 设置环境变量
+## 2. 设置环境变量
+
 2.1 新建个MYSQL_HOME的环境变量
+
 ```properties  
 MYSQL_HOME D:\mysql-5.7.32-winx64
 ```
@@ -13,16 +14,16 @@ MYSQL_HOME D:\mysql-5.7.32-winx64
 ![1618924965(1).jpg](http://ww1.sinaimg.cn/large/0062Ue2Wgy1gpqizvdx08j30gm06cjrf.jpg)
 
 2.2 在path后面添加mysql的bin
-```properties 
+
+```properties
 %MYSQL_HOME%\bin
 ```
 
 ![1618924936(1).png](http://ww1.sinaimg.cn/large/0062Ue2Wgy1gpqizevx49j30ea0d7dgd.jpg)
 
+## 3.新建my.ini文件
 
-3.新建my.ini文件
-
-```properties 
+```properties
 [mysql]
 # 设置mysql客户端默认字符集
 default-character-set=utf8mb4
@@ -66,64 +67,70 @@ default-storage-engine=INNODB
 [client]
 port=3306
 default-character-set=utf8mb4
-
-
 ```
-4. 安装服务 进入mysql的bin目录 执行以下命令
-```properties 
+
+### 4. 安装服务 进入mysql的bin目录 执行以下命令
+
+```properties
 mysqld --install
 ```
 
+1. 进入mysql的bin目录 执行以下初始化数据文件命令
 
-5. 进入mysql的bin目录 执行以下初始化数据文件命令
-```properties 
+```properties
 mysqld --initialize-insecure --user=mysql
 ```
 
+1. 修改密码
 
-6. 修改密码
 6.1 登录mysql 直接回车
 
-```properties 
+```properties
 mysql -uroot -p
 ```
 
-
 报错：mysql: [ERROR] unknown option '--skip-grant-tables'
-> bin目录下执行 
- 
- ```properties 
+> bin目录下执行
+
+```properties
 mysqld -nt -skip-grant-tables
 ```
+
 6.1  执行修改密码的语句
 
-```properties 
+```properties
 update mysql.user set authentication_string=password('root') where user='root' and Host = 'localhost';
 ```
 
 刷新下
 
-```properties 
+```properties
 flush privileges;
 ```
 
 6.2 去掉MySQL配置文件中的忽略密码配置skip-grant-tables 用#注释
+
 ## 卸载
+
 1. 删除服务
 
 在bin目录执行命令
-```properties 
+
+```properties
 mysqld -remove mysql
 ```
+
 或cmd直接执行
-```properties 
+
+```properties
 sc delete mysql
 ```
 
-2. 删除data文件夹
+### 2. 删除data文件夹
 
-3. 删除注册表的数据
-```properties 
+### 3. 删除注册表的数据
+
+```properties
  HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eventlog\Application\MySQL
  HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\Eventlog\Application\MySQL
  HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application\MySQL
