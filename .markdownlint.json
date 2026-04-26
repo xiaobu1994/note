@@ -1,7 +1,7 @@
 {
-  "MD055": {
-    "style": "no_leading_or_trailing"
-  },
-  "MD056": false,
-  "MD058": false
+  "default": true,
+  "MD013": false,
+  "MD033": false,
+  "MD041": false,
+  "MD024": false
 }
