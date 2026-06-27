@@ -1,0 +1,1694 @@
+{
+  "info": {
+    "_postman_id": "709efdd6-8fa9-417a-877e-729425f4b717",
+    "name": "OEE",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "6736815"
+  },
+  "item": [
+    {
+      "name": "TT报表",
+      "item": [
+        {
+          "name": "THPHL100 6451A",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Cookie",
+                "value": "JSESSIONID=B95379ED5C3ABFE519021DF2888AD138",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "selectSites",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "currentSelectedSites",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].dailyDateFrom",
+                  "value": "2023-03-20",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].days",
+                  "value": "7",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].weeks",
+                  "value": "4",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].months",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].site",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].areaRawidHidden",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].areaRawid",
+                  "value": "1",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpModel",
+                  "value": "THPHL",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpId",
+                  "value": "THPHL100",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpModuleId",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].productGroup",
+                  "value": "6451A",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].productId",
+                  "value": "TH6452AAB100,TH6452AAB1T0",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].stepId",
+                  "value": "1300",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpLevel",
+                  "value": "-1",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].dailyDateFrom",
+                  "value": "2023-03-19",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].site",
+                  "value": "T7",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].areaRawidHidden",
+                  "value": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/analysicsottacttimeanalysis/tact_time_trend_distribution.shtml",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "analysicsottacttimeanalysis",
+                "tact_time_trend_distribution.shtml"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "THCVD400 THCVD600 6452A",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Cookie",
+                "value": "JSESSIONID=B95379ED5C3ABFE519021DF2888AD138",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "selectSites",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "currentSelectedSites",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].dailyDateFrom",
+                  "value": "2023-03-20",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].days",
+                  "value": "7",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].weeks",
+                  "value": "4",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].months",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].site",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].areaRawidHidden",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].areaRawid",
+                  "value": "1",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpModel",
+                  "value": "THCVD",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpId",
+                  "value": "THCVD400",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpId",
+                  "value": "THCVD600",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpModuleId",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].productGroup",
+                  "value": "6452A",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].productId",
+                  "value": "TH6452AAB100,TH6452AAB1T0",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].stepId",
+                  "value": "2200",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpLevel",
+                  "value": "-1",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].dailyDateFrom",
+                  "value": "2023-03-19",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].site",
+                  "value": "T7",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].areaRawidHidden",
+                  "value": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/analysicsottacttimeanalysis/tact_time_trend_distribution.shtml",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "analysicsottacttimeanalysis",
+                "tact_time_trend_distribution.shtml"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "THCVD100 6451A",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Cookie",
+                "value": "JSESSIONID=B95379ED5C3ABFE519021DF2888AD138",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "selectSites",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "currentSelectedSites",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].dailyDateFrom",
+                  "value": "2023-03-19",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].days",
+                  "value": "7",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].weeks",
+                  "value": "4",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].months",
+                  "value": "3",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].site",
+                  "value": "T6",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].areaRawidHidden",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].areaRawid",
+                  "value": "1",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpModel",
+                  "value": "THCVD",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpId",
+                  "value": "THCVD100",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpModuleId",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].productGroup",
+                  "value": "6451A",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].productId",
+                  "value": "TH6451AAB100,TH6451AAB150",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].stepId",
+                  "value": "4200",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[0].eqpLevel",
+                  "value": "-1",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].dailyDateFrom",
+                  "value": "2023-03-19",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].site",
+                  "value": "T7",
+                  "type": "text"
+                },
+                {
+                  "key": "paramItems[1].areaRawidHidden",
+                  "value": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{baseUrl}}/analysicsottacttimeanalysis/tact_time_trend_distribution.shtml",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "analysicsottacttimeanalysis",
+                "tact_time_trend_distribution.shtml"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "产能破纪录报表",
+      "item": [
+        {
+          "name": "csotreport/export_data.shtml",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Cookie",
+                "value": "JSESSIONID=A85E424AD4D511B0E442AB2DCBB5BFF1",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "url": {
+              "raw": "http://127.0.0.1:8080/oee/csotreport/exportYesterdayData.shtml",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8080",
+              "path": [
+                "oee",
+                "csotreport",
+                "exportYesterdayData.shtml"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "T信机器人发送信息",
+      "item": [
+        {
+          "name": "T信机器人消息发送",
+          "protocolProfileBehavior": {
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "appId",
+                "value": "igQchT4u",
+                "type": "text"
+              },
+              {
+                "key": "timestamp",
+                "value": "20230516150156",
+                "type": "text"
+              },
+              {
+                "key": "sign",
+                "value": "MzEzNjQ1NjlkYTE0MjFjZjBiYWUxMDgwZjU2MWM1MzE=",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"sessionType\": \"ai\",\r\n    \"sessionId\": \"ai-g@10000586246\",\r\n    \"sender\": \"ai-105\",\r\n    \"contentType\": 28,\r\n    \"content\": \"<div class='table-c'>\\n      <span style='font-size:16px; font-weight: bold; color: red;'>【M6B 异常生产汇报】</span><br />\\n      <table border='0' cellspacing='0' cellpadding='0'>\\n        <tr style='color:red;white-space: nowrap;'>\\n          <td style='text-align: center;;font-size: 14px;white-space: nowrap;'>投产线体：</td>\\n          <td>MDABL300</td>\\n        </tr>\\n        <tr style='color:red;white-space: nowrap;'>\\n          <td style='text-align: center;;font-size: 14px;white-space: nowrap;'>投产机种：</td>\\n          <td>12G2381B0160D1</td>\\n        </tr>\\n        <tr style=';white-space: nowrap;'>\\n          <td style='color:red;text-align: center;;font-size: 14px;white-space: nowrap;'>异常原因：</td>\\n          <td style='color:red;'>PCB机构异常</td>\\n        </tr>\\n        <tr style='color:red;white-space: nowrap;'>\\n          <td style='text-align: center;;font-size: 14px;white-space: nowrap;'>开始时间：</td>\\n          <td>2023-04-15 16:32:04</td>\\n        </tr>\\n        <tr style='color:red;white-space: nowrap;'>\\n          <td style='text-align: center;;font-size: 14px;white-space: nowrap;'>当前时间：</td>\\n          <td> </td>\\n        </tr>\\n        <tr style='color:red;white-space: nowrap;'>\\n          <td style='text-align: center;;font-size: 14px;white-space: nowrap;'>影响时间：</td>\\n          <td>240.19 min</td>\\n        </tr>\\n        <tr style='color:red;white-space: nowrap;'>\\n          <td style='text-align: center;;font-size: 14px;white-space: nowrap;'>影响产能：</td>\\n          <td>554.40 pcs</td>\\n        </tr>\\n        <tr style='color:red;white-space: nowrap;'>\\n          <td style='text-align: center;;font-size: 14px;white-space: nowrap;'>处理进度：</td>\\n          <td>未复线(设备状态为EQ_D)</td>\\n        </tr>\\n      </table>\\n    </div>\",\r\n    \"appId\": \"18\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://teamwork.getech.cn/athena/http/web/api/msg/push/callback",
+              "protocol": "https",
+              "host": [
+                "teamwork",
+                "getech",
+                "cn"
+              ],
+              "path": [
+                "athena",
+                "http",
+                "web",
+                "api",
+                "msg",
+                "push",
+                "callback"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "tact_time_trend_distribution.shtml",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=5145B401AB1B434B60CB1AE853E3C676",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "selectSites",
+              "value": "T6",
+              "type": "text"
+            },
+            {
+              "key": "currentSelectedSites",
+              "value": "T6",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].dailyDateFrom",
+              "value": "2023-03-05",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].days",
+              "value": "7",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].weeks",
+              "value": "4",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].months",
+              "value": "3",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].site",
+              "value": "T6",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].areaRawidHidden",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].areaRawid",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].eqpModel",
+              "value": "THCVD",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].eqpId",
+              "value": "THCVD100",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].eqpModuleId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].productGroup",
+              "value": "6452A",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].productId",
+              "value": "TH6452AAB100",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].stepId",
+              "value": "4200",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[0].eqpLevel",
+              "value": "-1",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[1].dailyDateFrom",
+              "value": "2023-03-05",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[1].site",
+              "value": "T7",
+              "type": "text"
+            },
+            {
+              "key": "paramItems[1].areaRawidHidden",
+              "value": "",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/analysicsottacttimeanalysis/tact_time_trend_distribution.shtml",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "analysicsottacttimeanalysis",
+            "tact_time_trend_distribution.shtml"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "actualtacttimes_list",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "periodType",
+              "value": "Today and Current",
+              "type": "text"
+            },
+            {
+              "key": "fromDate",
+              "value": "2023-03-02 07:30:00",
+              "type": "text"
+            },
+            {
+              "key": "toDate",
+              "value": "2023-03-02 17:26:00",
+              "type": "text"
+            },
+            {
+              "key": "site",
+              "value": "T6",
+              "type": "text"
+            },
+            {
+              "key": "areaRawid",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "eqpModel",
+              "value": "THAOH",
+              "type": "text"
+            },
+            {
+              "key": "eqpId",
+              "value": "THAOH100",
+              "type": "text"
+            },
+            {
+              "key": "eqpModuleId",
+              "value": "SITE/FAB/CSOT6/ARRAY:THAOH100/THAOH10B",
+              "type": "text"
+            },
+            {
+              "key": "productId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "stepId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "egType",
+              "value": "W",
+              "type": "text"
+            },
+            {
+              "key": "eqpLevel",
+              "value": "-1",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/analysicsottacttimeanalysis/actualtacttimes_list.shtml",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "analysicsottacttimeanalysis",
+            "actualtacttimes_list.shtml"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "line_eqp_status_view",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "periodType",
+              "value": "Today and Current",
+              "type": "text"
+            },
+            {
+              "key": "fromDate",
+              "value": "2023-03-02 07:30:00",
+              "type": "text"
+            },
+            {
+              "key": "toDate",
+              "value": "2023-03-02 17:26:00",
+              "type": "text"
+            },
+            {
+              "key": "site",
+              "value": "T6",
+              "type": "text"
+            },
+            {
+              "key": "areaRawid",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "eqpModel",
+              "value": "THAOH",
+              "type": "text"
+            },
+            {
+              "key": "eqpId",
+              "value": "THAOH100",
+              "type": "text"
+            },
+            {
+              "key": "eqpModuleId",
+              "value": "SITE/FAB/CSOT6/ARRAY:THAOH100/THAOH10B",
+              "type": "text"
+            },
+            {
+              "key": "productId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "stepId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "egType",
+              "value": "W",
+              "type": "text"
+            },
+            {
+              "key": "eqpLevel",
+              "value": "-1",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://172.17.4.67:7080/oee/T1/monitoring/line_eqp_status_view.shtml?pathsite=T1&date=20230531&area=ARRAY&eqpModel=WET&line=TAWET100&ownerType=undefined\n",
+          "protocol": "http",
+          "host": [
+            "172",
+            "17",
+            "4",
+            "67"
+          ],
+          "port": "7080",
+          "path": [
+            "oee",
+            "T1",
+            "monitoring",
+            "line_eqp_status_view.shtml"
+          ],
+          "query": [
+            {
+              "key": "pathsite",
+              "value": "T1"
+            },
+            {
+              "key": "date",
+              "value": "20230531"
+            },
+            {
+              "key": "area",
+              "value": "ARRAY"
+            },
+            {
+              "key": "eqpModel",
+              "value": "WET"
+            },
+            {
+              "key": "line",
+              "value": "TAWET100"
+            },
+            {
+              "key": "ownerType",
+              "value": "undefined\n"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "line_eqp_status_view Copy",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "periodType",
+              "value": "Today and Current",
+              "type": "text"
+            },
+            {
+              "key": "fromDate",
+              "value": "2023-03-02 07:30:00",
+              "type": "text"
+            },
+            {
+              "key": "toDate",
+              "value": "2023-03-02 17:26:00",
+              "type": "text"
+            },
+            {
+              "key": "site",
+              "value": "T6",
+              "type": "text"
+            },
+            {
+              "key": "areaRawid",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "eqpModel",
+              "value": "THAOH",
+              "type": "text"
+            },
+            {
+              "key": "eqpId",
+              "value": "THAOH100",
+              "type": "text"
+            },
+            {
+              "key": "eqpModuleId",
+              "value": "SITE/FAB/CSOT6/ARRAY:THAOH100/THAOH10B",
+              "type": "text"
+            },
+            {
+              "key": "productId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "stepId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "egType",
+              "value": "W",
+              "type": "text"
+            },
+            {
+              "key": "eqpLevel",
+              "value": "-1",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://172.17.4.67:7080/oee/T1/monitoring/line_eqp_status_view.shtml?pathsite=T1&date=20230531&area=ARRAY&eqpModel=WET&line=TAWET100&ownerType=undefined\n",
+          "protocol": "http",
+          "host": [
+            "172",
+            "17",
+            "4",
+            "67"
+          ],
+          "port": "7080",
+          "path": [
+            "oee",
+            "T1",
+            "monitoring",
+            "line_eqp_status_view.shtml"
+          ],
+          "query": [
+            {
+              "key": "pathsite",
+              "value": "T1"
+            },
+            {
+              "key": "date",
+              "value": "20230531"
+            },
+            {
+              "key": "area",
+              "value": "ARRAY"
+            },
+            {
+              "key": "eqpModel",
+              "value": "WET"
+            },
+            {
+              "key": "line",
+              "value": "TAWET100"
+            },
+            {
+              "key": "ownerType",
+              "value": "undefined\n"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "eqp_status_view",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=59F2D9C349073FA99B389480AA5A9632",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "selectSites",
+              "value": "H1",
+              "type": "text"
+            },
+            {
+              "key": "items[0].period",
+              "value": "Daily",
+              "type": "text"
+            },
+            {
+              "key": "items[0].dailyDateFrom",
+              "value": "2023-03-06 07:30",
+              "type": "text"
+            },
+            {
+              "key": "items[0].dailyDateTo",
+              "value": "2023-03-07 07:30",
+              "type": "text"
+            },
+            {
+              "key": "items[0].monthlyFrom",
+              "value": "202303",
+              "type": "text"
+            },
+            {
+              "key": "items[0].monthlyTo",
+              "value": "202303",
+              "type": "text"
+            },
+            {
+              "key": "items[0].weeklyYearFrom",
+              "value": "2023",
+              "type": "text"
+            },
+            {
+              "key": "items[0].weeklyWeekFrom",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "items[0].weeklyYearTo",
+              "value": "2023",
+              "type": "text"
+            },
+            {
+              "key": "items[0].weeklyWeekTo",
+              "value": "10",
+              "type": "text"
+            },
+            {
+              "key": "items[0].shiftlyDate",
+              "value": "2023-03-06",
+              "type": "text"
+            },
+            {
+              "key": "items[0].shiftlyShift",
+              "value": "B",
+              "type": "text"
+            },
+            {
+              "key": "items[0].site",
+              "value": "H1",
+              "type": "text"
+            },
+            {
+              "key": "items[0].areaRawid",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "items[0].eqpModel",
+              "value": "MHABL",
+              "type": "text"
+            },
+            {
+              "key": "items[0].eqpId",
+              "value": "MHABL100",
+              "type": "text"
+            },
+            {
+              "key": "items[0].moduleName",
+              "value": "MHABL100",
+              "type": "text"
+            },
+            {
+              "key": "items[0].moduleLevel",
+              "value": "-1",
+              "type": "text"
+            },
+            {
+              "key": "items[0].downItem",
+              "value": "",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/H1/monitoring/eqp_status_view.shtml",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "H1",
+            "monitoring",
+            "eqp_status_view.shtml"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "line_status_and_hourly_move_new",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "oeeloginsid=20230423155738130_289854_10.110.97.190_testhost_8850",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "{{baseUrl}}/T6/monitoring/line_status_and_hourly_move_new.shtml?pathsite=T6&date=20230423&area=AC&eqpModel=CVD&moreSearch=false&showViewArr=TactTime,PFCD&downItemArr=EQ_D,PE_D&ownerType=undefined&workNo=&mergeSite=T6,T7",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "T6",
+            "monitoring",
+            "line_status_and_hourly_move_new.shtml"
+          ],
+          "query": [
+            {
+              "key": "pathsite",
+              "value": "T6"
+            },
+            {
+              "key": "date",
+              "value": "20230423"
+            },
+            {
+              "key": "area",
+              "value": "AC"
+            },
+            {
+              "key": "eqpModel",
+              "value": "CVD"
+            },
+            {
+              "key": "moreSearch",
+              "value": "false"
+            },
+            {
+              "key": "showViewArr",
+              "value": "TactTime,PFCD"
+            },
+            {
+              "key": "downItemArr",
+              "value": "EQ_D,PE_D"
+            },
+            {
+              "key": "ownerType",
+              "value": "undefined"
+            },
+            {
+              "key": "workNo",
+              "value": ""
+            },
+            {
+              "key": "mergeSite",
+              "value": "T6,T7"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "line_eqp_status_view Copy",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "periodType",
+              "value": "Today and Current",
+              "type": "text"
+            },
+            {
+              "key": "fromDate",
+              "value": "2023-03-02 07:30:00",
+              "type": "text"
+            },
+            {
+              "key": "toDate",
+              "value": "2023-03-02 17:26:00",
+              "type": "text"
+            },
+            {
+              "key": "site",
+              "value": "T6",
+              "type": "text"
+            },
+            {
+              "key": "areaRawid",
+              "value": "1",
+              "type": "text"
+            },
+            {
+              "key": "eqpModel",
+              "value": "THAOH",
+              "type": "text"
+            },
+            {
+              "key": "eqpId",
+              "value": "THAOH100",
+              "type": "text"
+            },
+            {
+              "key": "eqpModuleId",
+              "value": "SITE/FAB/CSOT6/ARRAY:THAOH100/THAOH10B",
+              "type": "text"
+            },
+            {
+              "key": "productId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "stepId",
+              "value": "",
+              "type": "text"
+            },
+            {
+              "key": "egType",
+              "value": "W",
+              "type": "text"
+            },
+            {
+              "key": "eqpLevel",
+              "value": "-1",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://172.17.4.67:7080/oee/T1/monitoring/line_eqp_status_view.shtml?pathsite=T1&date=20230531&area=ARRAY&eqpModel=WET&line=TAWET100&ownerType=undefined\n",
+          "protocol": "http",
+          "host": [
+            "172",
+            "17",
+            "4",
+            "67"
+          ],
+          "port": "7080",
+          "path": [
+            "oee",
+            "T1",
+            "monitoring",
+            "line_eqp_status_view.shtml"
+          ],
+          "query": [
+            {
+              "key": "pathsite",
+              "value": "T1"
+            },
+            {
+              "key": "date",
+              "value": "20230531"
+            },
+            {
+              "key": "area",
+              "value": "ARRAY"
+            },
+            {
+              "key": "eqpModel",
+              "value": "WET"
+            },
+            {
+              "key": "line",
+              "value": "TAWET100"
+            },
+            {
+              "key": "ownerType",
+              "value": "undefined\n"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "line_status_and_hourly_move_new Copy",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "oeeloginsid=20230423155738130_289854_10.110.97.190_testhost_8850",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "http://10.110.97.190:8080/oee/H1/monitoring/line_status_and_hourly_move_new.shtml?pathsite=H1&date=20230531&area=MODULEA&eqpModel=Bonding&moreSearch=false&showViewArr=TactTime,PFCD&downItemArr=EQ_D,PE_D&ownerType=undefined&workNo=&mergeSite=",
+          "protocol": "http",
+          "host": [
+            "10",
+            "110",
+            "97",
+            "190"
+          ],
+          "port": "8080",
+          "path": [
+            "oee",
+            "H1",
+            "monitoring",
+            "line_status_and_hourly_move_new.shtml"
+          ],
+          "query": [
+            {
+              "key": "pathsite",
+              "value": "H1"
+            },
+            {
+              "key": "date",
+              "value": "20230531"
+            },
+            {
+              "key": "area",
+              "value": "MODULEA"
+            },
+            {
+              "key": "eqpModel",
+              "value": "Bonding"
+            },
+            {
+              "key": "moreSearch",
+              "value": "false"
+            },
+            {
+              "key": "showViewArr",
+              "value": "TactTime,PFCD"
+            },
+            {
+              "key": "downItemArr",
+              "value": "EQ_D,PE_D"
+            },
+            {
+              "key": "ownerType",
+              "value": "undefined"
+            },
+            {
+              "key": "workNo",
+              "value": ""
+            },
+            {
+              "key": "mergeSite",
+              "value": ""
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "findDepts",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "oeeloginsid=20230329173407721_289854_10.110.97.190_testhost_6468;",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "{{baseUrl}}/pub/api/eqpHourlyMoveCsotService/findDepts?p2=T6,T7&p1=AC",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "pub",
+            "api",
+            "eqpHourlyMoveCsotService",
+            "findDepts"
+          ],
+          "query": [
+            {
+              "key": "p2",
+              "value": "T6,T7"
+            },
+            {
+              "key": "p1",
+              "value": "AC"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "findProducts",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "oeeloginsid=20230329173407721_289854_10.110.97.190_testhost_6468;",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "{{baseUrl}}/pub/api/eqpHourlyMoveCsotService/findProducts?p1=T6,T7&p2=AC&p3=CVD&p4=20230425&p5=",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "pub",
+            "api",
+            "eqpHourlyMoveCsotService",
+            "findProducts"
+          ],
+          "query": [
+            {
+              "key": "p1",
+              "value": "T6,T7"
+            },
+            {
+              "key": "p2",
+              "value": "AC"
+            },
+            {
+              "key": "p3",
+              "value": "CVD"
+            },
+            {
+              "key": "p4",
+              "value": "20230425"
+            },
+            {
+              "key": "p5",
+              "value": ""
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "findLineIds",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "oeeloginsid=20230329173407721_289854_10.110.97.190_testhost_6468;",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "{{baseUrl}}/pub/api/eqpHourlyMoveCsotService/findLineIds?p2=AC&p3=CVD&p1=T6,T7",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "pub",
+            "api",
+            "eqpHourlyMoveCsotService",
+            "findLineIds"
+          ],
+          "query": [
+            {
+              "key": "p2",
+              "value": "AC"
+            },
+            {
+              "key": "p3",
+              "value": "CVD"
+            },
+            {
+              "key": "p1",
+              "value": "T6,T7"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "eqpHourlyMoveCsotService/findSiteByModuleName",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "oeeloginsid=20230329173407721_289854_10.110.97.190_testhost_6468;",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "{{baseUrl}}/pub/api/eqpHourlyMoveCsotService/findSiteByModuleName?p1=THCVD100",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "pub",
+            "api",
+            "eqpHourlyMoveCsotService",
+            "findSiteByModuleName"
+          ],
+          "query": [
+            {
+              "key": "p1",
+              "value": "THCVD100"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "信机器人群组事件 28",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"sessionId\": \"ai-g@10000037159\",\r\n    \"robotId\": \"ai-105\",\r\n    \"groupName\": \"admin测试群\",\r\n    \"groupLeaderUid\": \"123456\",\r\n    \"event\": 1,\r\n    \"groupLeaderName\": \"admin\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://172.17.4.28:7080/oee/callback.shtml",
+          "protocol": "http",
+          "host": [
+            "172",
+            "17",
+            "4",
+            "28"
+          ],
+          "port": "7080",
+          "path": [
+            "oee",
+            "callback.shtml"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "信机器人群组事件 本地",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"sessionId\": \"ai-g@10000037159\",\r\n    \"robotId\": \"ai-105\",\r\n    \"groupName\": \"admin测试群\",\r\n    \"groupLeaderUId\": \"123456\",\r\n    \"event\": 1,\r\n    \"groupLeaderName\": \"admin\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/oee/callback.shtml",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "oee",
+            "callback.shtml"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "信机器人群组事件 代理服务器",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"sessionId\": \"ai-g@10000037159\",\r\n    \"robotId\": \"ai-105\",\r\n    \"groupName\": \"admin测试群-thw\",\r\n    \"groupLeaderUid\": \"tanhongwei1\",\r\n    \"event\": 1,\r\n    \"groupLeaderName\": \"tanhongwei1\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://10.108.7.121:7080/oee/callback.shtml",
+          "protocol": "http",
+          "host": [
+            "10",
+            "108",
+            "7",
+            "121"
+          ],
+          "port": "7080",
+          "path": [
+            "oee",
+            "callback.shtml"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "查询TT",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=739672AC176F185F9AF0803D004D827F",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\t\"daily\": \"20240815\",\r\n\t\"hourly\": \"\",\r\n\t\"line\": \"\",\r\n\t\"lineIdList\": [\"CAPIL100\",\"CAPIL200\",\"CAPIL300\",\"CAPIL400\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://szporos-oa-dev.csot.tcl.com/api/performance-service/pfTTAlarmController/getEhmAlmTtList",
+          "protocol": "http",
+          "host": [
+            "szporos-oa-dev",
+            "csot",
+            "tcl",
+            "com"
+          ],
+          "path": [
+            "api",
+            "performance-service",
+            "pfTTAlarmController",
+            "getEhmAlmTtList"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
