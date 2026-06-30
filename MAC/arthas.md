@@ -1,17 +1,11 @@
+# arthas
 
-### retransform
-```
+## retransform
+
+```shell
 retransform /Users/xiaobu/Downloads/DemoController.class
 ```
 
-```
+```shell
 retransform -l
-```![alt text](image.png)
-
 ```
-mdfind -name UserController.java
-```
-
-
-
-
