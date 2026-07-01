@@ -20,6 +20,9 @@
 
 ```shell
 brew list --cask | grep iterm2
+```
+
+```shell
 brew list --cask | grep battery-toolkit
 ```
 
@@ -27,13 +30,19 @@ brew list --cask | grep battery-toolkit
 
 ```shell
  brew install 包名
+```
+
+```shell
  brew install --cask | grep battery-toolkit
  ```
 
 ## 2.4. 卸载软件包
 
 ```shell
-brew uninstall 包名
+brew uninstall node
+```
+
+```shell
 brew uninstall --cask battery-toolkit
 ```
 
@@ -47,6 +56,9 @@ brew update && brew upgrade
 
 ```shell
 brew outdated
+```
+
+```shell
 brew outdated --cask
 ```
 
@@ -59,15 +71,23 @@ brew outdated --cask iterm2
 ## 更新指定包
 
 ```shell
- brew upgrade node
- brew upgrade --cask iterm2
+brew upgrade node
 ```
 
-## 锁定或取消锁定
+```shell
+brew upgrade --cask iterm2
+```
+
+## 锁定包
 
 ```shell
-brew pin $FORMULA      # 锁定某个包
-brew unpin $FORMULA    # 取消锁定
+brew pin node
+```
+
+## 取消锁定
+
+```shell
+brew unpin node
 ```
 
 ## 查看哪些包可清理
