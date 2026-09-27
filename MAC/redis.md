@@ -1,34 +1,54 @@
+# Redis 常用命令
+
+## 配置文件位置
+
+```text
 /opt/homebrew/etc/redis.conf
+```
 
+## 使用 Homebrew 管理 Redis
 
-<!-- //方式一：使用brew帮助我们启动软件 -->
+启动 Redis：
+
+```shell
 brew services start redis
+```
 
+停止 Redis：
 
-<!-- 最后使用brew命令关闭redis服务 -->
+```shell
 brew services stop redis
+```
 
+查看服务列表：
 
-
-//方式二
-redis-server /usr/local/etc/redis.conf
-
-
-<!-- 查看redis服务进程 -->
-ps axu | grep redis
-
-ps -ef | grep redis
-
-
-<!-- 正确停止Redis的方式应该是向Redis发送SHUTDOWN命令 -->
-
-redis-cli shutdown
-
-<!-- 强行终止redis -->
-sudo pkill redis-server
-
-
-通过Mac自带的Homebrew工具，查看服务列表
-
+```shell
 brew services list
+```
 
+## 直接启动 Redis
+
+```shell
+redis-server /usr/local/etc/redis.conf
+```
+
+## 查看 Redis 进程
+
+```shell
+ps axu | grep redis
+ps -ef | grep redis
+```
+
+## 停止 Redis
+
+推荐向 Redis 发送 `SHUTDOWN` 命令：
+
+```shell
+redis-cli shutdown
+```
+
+强制终止 Redis：
+
+```shell
+sudo pkill redis-server
+```

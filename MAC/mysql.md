@@ -1,18 +1,19 @@
+# MySQL 常用命令
 
-
-
-### mysql登录
+## 登录 MySQL
 
 ```shell
 mysql -u root -pxiaobu1994
 ```
 
-### 启动 MySQL 服务
+## 启动 MySQL 服务
+
 ```shell
-brew services start mysql 
+brew services start mysql
 ```
 
-### 重启MySQL 服务
+## 重启 MySQL 服务
+
 ```shell
-brew services restart mysql 
+brew services restart mysql
 ```
